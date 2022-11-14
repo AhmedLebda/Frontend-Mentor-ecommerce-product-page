@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title Icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Scripts -->
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-container">
+      <nav class="navBar-wrapper">
+        <div class="logo-links-wrapper">
+          <!-- Menu Icon For Mobile Display -->
+          <div class="menu-open">
+            <img src="images/icon-menu.svg" alt="menu icon" />
+          </div>
+
+          <!-- Page Logo -->
+          <div class="logo">
+            <img src="images/logo.svg" alt="sneakers logo" />
+          </div>
+
+          <!-- Navbar Links -->
+          <div class="nav-links">
+            <div class="menu-close">
+              <img src="images/icon-close.svg" alt="close X icon" />
+            </div>
+            <ul>
+              <li><a class="active" href="#">collection</a></li>
+              <li><a href="#">men</a></li>
+              <li><a href="#">women</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cart-user-wrapper">
+          <div class="cart">
+            <div class="open-cart">
+              <span class="notification">0</span>
+              <img src="images/icon-cart.svg" alt="cart icon" />
+            </div>
+
+            <div class="cart-items">
+              <h3 class="cart-items-header">Cart</h3>
+              <div class="cart-items-content">
+                <p class="cart-empty">Your cart is empty.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="user">
+            <img src="images/image-avatar.png" alt="user photo" />
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <!-- Product Slider -->
+        <section class="slider">
+          <!-- images -->
+          <div class="slider-content">
+            <img src="images/image-product-1.jpg" alt="shoes product" />
+          </div>
+
+          <!-- Controls -->
+          <div class="slider-controls">
+            <img
+              class="previous-slide"
+              src="images/icon-previous.svg"
+              alt="next icon" />
+            <img
+              class="next-slide"
+              src="images/icon-next.svg"
+              alt="next icon" />
+          </div>
+
+          <!-- thumbnails -->
+          <div class="slider-thumbnails">
+            <img
+              class="active-image"
+              src="images/image-product-1-thumbnail.jpg"
+              alt="shoes product thumbnail" />
+            <img
+              src="images/image-product-2-thumbnail.jpg"
+              alt="shoes product thumbnail" />
+            <img
+              src="images/image-product-3-thumbnail.jpg"
+              alt="shoes product thumbnail" />
+            <img
+              src="images/image-product-4-thumbnail.jpg"
+              alt="shoes product thumbnail" />
+          </div>
+        </section>
+
+        <!-- Product Info -->
+        <section class="product-info">
+          <!-- Company name -->
+          <p class="company">sneaker company</p>
+
+          <!-- Product name -->
+          <h1 class="prod-name">fall limited edition sneakers</h1>
+
+          <!-- Product description -->
+          <p class="prod-description">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand everything
+            the weather can offer.
+          </p>
+
+          <!-- Product Price -->
+          <div class="price-wrapper">
+            <p class="price-current">$125.00</p>
+            <p class="price-previous">$250.00</p>
+          </div>
+
+          <div class="prod-purchase">
+            <!-- Quantity -->
+            <div class="quantity-wrapper">
+              <img id="decrease" src="images/icon-minus.svg" alt="plus icon" />
+              <span class="quantity">0</span>
+              <img id="increase" src="images/icon-plus.svg" alt="minus icon" />
+            </div>
+
+            <!-- Add to cart -->
+            <button class="add-product">Add to cart</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
