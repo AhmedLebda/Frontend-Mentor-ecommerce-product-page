@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-UUmyiwcaHN)
+- Live Site URL: [live site URL](https://ahmedlebda.github.io/Frontend-Mentor-ecommerce-product-page/)
 
 ## Built with
 
